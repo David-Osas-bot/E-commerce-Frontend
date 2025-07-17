@@ -1,0 +1,135 @@
+@media screen and (max-width:768px) {
+    html, body
+    {
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    .icon-div, .link-div, .logo-div
+    {
+        display: none;
+    }
+
+    .logo-div-2
+    {
+        width: 100px;
+        height: 90px;
+        background-color: white;
+    }
+
+    .mobile
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        height: auto;
+    }
+
+    .bars
+    {
+        font-size: 25px;
+    }
+
+    .bars-div
+    {
+        margin-top: 20px;
+    }
+
+    .clip-div
+    {
+        height: 350px;
+    }
+
+    .clip
+    {
+       margin-top: -20%;
+    }
+ 
+    .first-set
+    {
+      width: 100%;
+      flex-flow: wrap row;
+      height: auto;
+      margin-top: 15%; 
+    }
+
+
+    .second-set
+    {
+        flex-flow: wrap row;
+        gap: 50px;
+    }
+
+     .third-set
+      {
+        width: 100%;
+        flex-flow: wrap column;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .inter
+      {
+        width: 100%;
+        flex-flow:wrap row;
+        height: auto;
+        gap: 10px;
+      }
+
+      .men1,.men2, .women1, .women2, .accessory, .accessory2
+      {
+        width: 150px; 
+        border: none;
+      }
+
+      .clip-div
+      {
+        margin-bottom: 50%;
+      }
+
+       .move-right, .move-left{
+        width: 2%;
+        margin-top: 20%;
+      }
+
+      .move-right
+      {
+        margin-left: 10px;
+      }
+       .carousel-container-div
+       {
+         margin-left: 15px;
+         column-gap: 20px;
+       }
+
+      .collection
+       {
+          height: 350px;
+          width: 250px;
+          margin-left:10px;
+          margin-top: -90%;
+          padding: 15px;
+       }
+
+       
+      .collection-span, .bttn
+      {
+        font-size: 40px;
+      }
+
+      .collection-span p
+      {
+        font-size: 16px;
+      }
+ 
+    .bttn
+      {
+         font-size: 20px;
+      }
+
+      .poll
+      {
+        width: 90%;
+      }
+}

@@ -1,0 +1,343 @@
+@media screen and (min-width:240px) {
+    
+}
+
+@media screen and (min-width:1024px) 
+{
+    
+     body
+    {
+        overflow-x: hidden; 
+    } 
+    
+    /* The Header styling begins here */
+    header
+    {
+        width: 100%;
+        height: 120px;
+        background-color:white;
+        display: flex;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo-div
+    {
+        width: 200px;
+        height: 70px;
+        margin-top: -20px;
+        background-color: white;
+    }
+
+    .link-div
+    {
+        padding-top: 20px;
+        width: 900px;
+        margin-left: 50px;
+        height: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: white;
+    }
+
+    #link
+    {
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        color: black;
+        font-weight: 100;
+    }
+
+    .dropdown
+    {
+      display: inline-block;
+      position: relative;
+    }
+
+    .subcol-div
+    {
+      display: none;
+    }
+
+    .sub-div
+    {
+      width: 650px;
+      height: 300px;
+      z-index: 1;
+      background-color: white;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      position: absolute;
+      display: flex;
+      column-gap: 15px;
+      margin-top: 20px;
+      margin-left: -250px;
+      padding-left: 20px;
+      padding-top: 10px;
+      border-radius: 15px;
+    }
+
+    .dropdown:hover #link
+    {
+      background-color: color;
+    }
+
+    .dropdown:hover .subcol-div
+    {
+      display: block;
+    }
+
+    .icon-div
+    {
+        width: 200px;
+        height: 70px;
+        background-color: white;
+        display: flex;
+        /* justify-content: space-evenly; */
+        margin-left: 100px;
+        padding: 10px 10px 5px 10px;
+
+    }
+
+
+     .font
+      {
+        width: 60px; 
+        height: 30px; 
+        padding-top: 10px; 
+        padding-left: 15px;
+        margin-right: 10px;
+        background-color: white; 
+        border: 1px solid lightgrey;
+      }
+
+      /* The header styling ends here */
+ 
+
+
+
+      
+      /* The styling for the SHOP Dropdown */
+
+       .men1
+      {
+        width: 175px; 
+        height: 280px;
+        background-color: white;
+        display: block;
+        border: 1px solid gray;
+        padding-left: 10px;
+      }
+
+      .hrMa
+      {
+        width: 45px; 
+        height: 2px; 
+        background-color: gold; 
+        color: gold; 
+        border: none; 
+        margin-left: -1px;
+      }
+
+      .men-writeup
+      {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25px;
+        font-weight: 300;
+      }
+
+      .colex
+      {
+        margin-left: 12px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+      }
+
+      .jacket-link
+      {
+        font-size: 15px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: none;
+        color: black;
+        transition: color 0.5s ease;
+      }
+      .jacket-link:hover{
+        color: goldenrod;
+      }
+
+      .men2
+      {
+        width: 175px;
+        height: 280px;
+        background-color: gray;
+        border: 1px solid gray;
+      }
+      .men-img
+      {
+        width: 175px;
+        height: 280px;
+      }
+
+      .women1
+      {
+        width: 180px; 
+        height: 280px;
+        background-color: white;
+        display: block;
+        border: 1px solid grey;
+        padding-left: 10px;
+      }
+
+      .women2
+      {
+        width: 200px;
+        height: 280px;
+        background-color: grey;
+        border: 1px solid grey;
+      }
+
+      .hrWo
+      {
+        width: 85px; 
+        height: 2px; 
+        background-color: gold; 
+        color: gold; 
+        border: none; 
+        margin-left: -1px;
+      }
+
+      .women-img
+      {
+       width: 200px;
+       height: 280px; 
+      }
+
+      .women-writeup
+      {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25px;
+        font-weight: 300;
+      }
+
+      .jack-link
+      {
+        font-size: 15px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: none;
+        color: black;
+        transition: color 0.5s ease;
+      }
+
+      .jack-link:hover
+      {
+        color: goldenrod;
+      }
+
+      .accessory
+      {
+        width: 200px; 
+        height: 280px;
+        background-color: white;
+        border: 1px solid grey;
+        display: block;
+        padding-left: 10px;
+      }
+
+      .accessory2
+      {
+        width: 200px;
+        height: 280px;
+        background-color: grey;
+        border: 1px solid grey;
+      } 
+
+      .hrAc
+      {
+        width: 130px; 
+        height: 2px; 
+        background-color: gold; 
+        color: gold; 
+        border: none; 
+        margin-left: -1px;
+      }
+
+      .access-img
+      {
+        width: 200px;
+        height: 280px;
+      }
+      /*The Shop styling ends here....  */
+
+
+      .Contact-us-div
+      {
+            width: 50%;
+            height: 600px;
+            background-color: white;
+            margin: auto;
+            border-radius: 15px;
+            padding-left: 15px;
+            padding-top: 5px;
+      }
+
+      .Contact-paragraph
+      {
+        color: gold;
+        font-style: italic;
+        font-weight: 300;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-shadow: 2px 3px 1px gray;
+      }
+
+        .done
+        {
+            color: white;
+            background-color: goldenrod;
+            transform: translateY(-30px);
+        }
+
+        .done:hover, .active
+        {
+            color: black;
+            background-color: white;
+        }
+
+        ::placeholder
+        {
+            color: gray;
+        }
+
+        input
+        {
+          width: 400px; 
+          height: 50px; 
+          border-radius: 10px; 
+          outline: none; 
+          padding-left: 15px;
+          border-color: black;
+        }
+
+        input[type="datetime-local"]
+        {
+          padding-right: 15px;
+        }
+
+        input[type="submit"]
+        {
+          width: 100px; 
+          height: 50px;
+          font-size: 18px;
+          font-weight: 300;
+          margin-left: 70%;
+          border-radius: 15px;
+        }
+
+
+        label
+        {
+          font-size: 15px;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-weight: 200;
+        }
+      }

@@ -1,0 +1,981 @@
+  body
+    {
+        overflow-x: hidden; 
+        padding: 0;
+        margin: 0;
+    } 
+
+    /* The Header styling begins here */
+    header
+    {
+        width: 100%;
+        height: 90px;
+        background-color: white;
+        display: flex;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        z-index: 100;
+    
+    }
+
+    .carol
+    {
+      width: 90%; 
+      margin-left: 5%; 
+      margin-right: 5%; 
+      height: 500px;
+
+    }
+    
+    .logo-div
+    {
+        width: 100px;
+        height: 90px;
+        background-color: white;
+        margin-top: -10px;
+    }
+
+    .logo-img
+    {
+      width: 100px; 
+      height: 90px;
+    }
+
+    .link-div
+    {
+        padding-top: 20px;
+        width: 900px;
+        margin-left: 50px;
+        height: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: white;
+    
+    }
+
+    #link
+    {
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        color: black;
+        font-weight: 500;
+        transition: color 0.7s ease-in-out;
+    }
+
+    .link-div #link:hover
+    {
+      color: goldenrod;
+    }
+
+    .dropdown
+    {
+      display: inline-block;
+      position: relative;
+    }
+
+    .subcol-div
+    {
+      display: none;
+    }
+
+    .sub-div
+    {
+      width: 650px;
+      height: 300px;
+      z-index: 1;
+      background-color: white;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      position: absolute;
+      display: flex;
+      column-gap: 15px;
+      margin-top: 20px;
+      margin-left: -250px;
+      padding-left: 20px;
+      padding-top: 10px;
+      border-radius: 15px;
+    }
+
+    .dropdown:hover #link
+    {
+      background-color: color;
+    }
+
+    .dropdown:hover .subcol-div
+    {
+      display: block;
+    }
+
+    .icon-div
+    {
+        width: 200px;
+        height: 70px;
+       background-color: white;
+        display: flex;
+        /* justify-content: space-evenly; */
+        margin-left: 100px;
+        padding: 10px 10px 5px 10px;
+
+    }
+
+     .font
+      {
+        width: 60px; 
+        height: 30px; 
+        padding-top: 10px; 
+        padding-left: 15px;
+        margin-right: 10px;
+        background-color: white; 
+        border: 1px solid lightgrey;
+      }
+
+    /* The header styling closes here */
+
+
+
+
+    /* This styling begins after the carousel div*/
+      
+
+      .ontop
+      {
+        width: 400px;
+        height: 50px;
+        margin-left: 5%;
+        margin-top: 10%;
+        background-color: white;
+        color: white;
+      }
+
+      .second-set
+      {
+        background-color: white;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: wrap row;
+        margin-top: 5%;
+        gap: 42px;
+        margin-bottom: 50px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .third-set
+      {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-flow: row;
+        margin: auto;
+        column-gap: 80px;
+        margin-bottom: 70px;
+      }
+
+      .pic1:hover {
+        width: 280px;
+        height: 310px;
+        transform: translateY(-3px);
+      }
+     
+      .latest
+      {
+        font-size: 30px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 800;
+        color: black;
+      }
+
+      .product-div
+      {
+        overflow: hidden;
+        /* background-color: gray; */
+      }
+
+      .price-detail
+      {
+        color: black;
+        font-size: 15px;
+        font-weight: 900;
+        margin-right: 5px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+
+      .star
+      {
+        color: gold;
+        margin-top: 5px;
+      }
+
+      .margin
+      {
+         margin-right: 70px;
+      }
+
+      .product
+      {
+        width: 270px;
+        height: auto;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+      }
+
+      .product-img
+      {
+        width: 270px; 
+        height: 300px;
+        border-radius: 10px;
+      }
+
+      .product:hover{
+        transform: scale(1.1);
+        opacity: 0.8;
+      }
+
+      .price-div
+      {
+        width: 270px;
+        height: 120px;
+        padding-top: 15px;
+        padding-left: 5px;
+      }
+
+      .cart-btn
+      {
+        width: 110px;
+        height: 40px;
+        border-radius: 30px;
+        margin-top: 5px;
+        background-color: white;
+        color: black;
+        outline: none;
+        border: 1px solid black;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 900;
+        margin-right: 5px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+
+      .cart-btn:hover
+      {
+         display: block;
+          filter: drop-shadow(
+              0 0 10px
+          gold);
+          background-color: black;
+          color: white;
+      }
+
+      .men1
+      {
+        width: 180px; 
+        height: 280px;
+        background-color: white;
+        display: block;
+        border: 1px solid gray;
+        padding-left: 10px;
+      }
+
+      .hrMa
+      {
+        width: 45px; 
+        height: 2px; 
+        background-color: gold; 
+        color: gold; 
+        border: none; 
+        margin-left: -1px;
+      }
+
+      .men-writeup
+      {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25px;
+        font-weight: 300;
+      }
+
+      .colex
+      {
+        margin-left: 12px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+      }
+
+      .jacket-link
+      {
+        font-size: 15px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: none;
+        color: black;
+        transition: color 0.5s ease;
+      }
+      .jacket-link:hover{
+        color: goldenrod;
+      }
+
+      .men2
+      {
+        width: 180px;
+        height: 280px;
+        background-color: gray;
+        border: 1px solid gray;
+      }
+      .men-img
+      {
+        width: 180px;
+        height: 280px;
+      }
+
+      .women1
+      {
+        width: 180px; 
+        height: 280px;
+        background-color: white;
+        display: block;
+        border: 1px solid grey;
+        padding-left: 10px;
+      }
+
+      .women2
+      {
+        width: 180px;
+        height: 280px;
+        background-color: grey;
+        border: 1px solid grey;
+      }
+
+      .hrWo
+      {
+        width: 85px; 
+        height: 2px; 
+        background-color: gold; 
+        color: gold; 
+        border: none; 
+        margin-left: -1px;
+      }
+
+      .women-img
+      {
+       width: 180px;
+       height: 280px; 
+      }
+
+      .women-writeup
+      {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25px;
+        font-weight: 300;
+      }
+
+      .jack-link
+      {
+        font-size: 15px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: none;
+        color: black;
+        transition: color 0.5s ease;
+      }
+
+      .jack-link:hover
+      {
+        color: goldenrod;
+      }
+
+      .accessory
+      {
+        width: 180px; 
+        height: 280px;
+        background-color: white;
+        border: 1px solid grey;
+        display: block;
+        padding-left: 10px;
+      }
+
+      .accessory2
+      {
+        width: 180px;
+        height: 280px;
+        background-color: grey;
+        border: 1px solid grey;
+      } 
+
+      .hrAc
+      {
+        width: 130px; 
+        height: 2px; 
+        background-color: gold; 
+        color: gold; 
+        border: none; 
+        margin-left: -1px;
+      }
+
+      .access-img
+      {
+        width: 180px;
+        height: 280px;
+      }
+
+      .inter
+      {
+
+            width: 100%;
+            display: flex;
+            flex-flow: wrap row;
+            margin-top: 1%;
+            gap: 42px;
+            height: auto;
+            margin-top: 5%;
+            background-color: white;
+            align-items: center;
+            justify-content: center;
+      }
+
+      .model-Image
+      {
+        width: 290px;
+        height: 300px;
+      }
+      
+      .caro-div
+      {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        position: relative;
+      }
+
+      footer
+      {
+        width: 100%;
+        height: auto;
+        background-color: lightgrey;
+        margin-top: 3%;
+        padding-top: 10px;
+        display: flex;
+        flex-flow: wrap row;
+        gap: 50px;
+      }
+
+      .logo-write
+      {
+        width: 350px;
+        height: 350px;
+        margin-left: 20px;
+      }
+
+      .logo-in
+      {
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+      }
+
+      .write-in
+      {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        color: gray;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+      }
+
+      .social-write
+      {
+        color: black;
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+      }
+
+      .inform-div
+      {
+        width: 230px;
+        height: 350px;
+        /* background-color: blue; */
+        margin-left: 10px;
+        padding-left: 15px;
+        padding-top: 3%;
+      }
+
+      .inform-write
+      {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        color: black;
+      }
+
+      .hrIn
+      {
+        width: 110px; 
+        height: 1px; 
+        background-color: black; 
+        color: black; 
+        border: none; 
+        margin-left: -1px;
+      }
+
+      .the-list
+      {
+       margin-bottom: 25px;
+       color: gray;
+       transition: color 0.7s ease-in-out;
+      }
+      
+      .the-list:hover
+      {
+        color: gold;
+      }
+
+      .customer-div
+      {
+        width: 230px;
+        height: 350px;
+        /* background-color: red;  */
+        margin-left: 10px;
+        padding-left: 15px;
+        padding-top: 3%;
+      }
+
+      .customer-write
+      {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: black;
+        font-size: 20px;
+      }
+
+      .hrCu
+      {
+        width: 100px; 
+        height: 1px; 
+        background-color: black; 
+        color: black; 
+        border: none; 
+        margin-left: -1px; 
+      }
+
+      .the-list2
+      {
+       margin-bottom: 25px;
+       color: gray;
+       transition: color 0.7s ease-in-out;
+      }
+      
+      .the-list2:hover
+      {
+        color: gold;
+      }
+
+      .account-div
+      {
+        width: 230px;
+        height: 350px;
+        /* background-color: red;  */
+        margin-left: 10px;
+        padding-left: 15px;
+        padding-top: 3%;
+      }
+
+      .hrAcct
+      {
+        width: 110px; 
+        height: 1px; 
+        background-color: black; 
+        color: black; 
+        border: none; 
+        margin-left: -1px; 
+      }
+
+      .the-list3
+      {
+       margin-bottom: 25px;
+       color: gray;
+       transition: color 0.7s ease-in-out;
+      }
+      
+      .the-list3:hover
+      {
+        color: gold;
+      }
+
+      .account-write
+      {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        color: black; 
+        
+      }
+
+      .carousel-container-div
+      {
+        width: 80%;
+        height: auto;
+        display: flex;
+        column-gap: 20px;
+        overflow: auto;
+      }
+
+      .carousel-container-div::-webkit-scrollbar
+      {
+        -webkit-appearance: none;
+      }
+
+      .poll
+      {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 10%;
+        background-color: gray;
+        gap: 25px;
+      }
+
+      .prev
+      {
+        width: 30px;
+        height: 30px;
+        margin-top: 100%;
+        margin-left: 50%;
+        border-radius: 50%;
+        background-color: white;
+        border: 1px solid black;
+      }
+      .prev:hover{
+        background-color: black;
+      }
+      
+
+      .next
+      {
+        width: 30px;
+        height: 30px;
+        margin-top: 100%;
+        margin-left: 20%;
+        border-radius: 50%;
+        background-color: white;
+        border: 1px solid gray;
+      }
+      .next:hover{
+        background-color: black;
+      }
+
+
+      .angle
+      {
+        font-size: 20px;
+        color: black;
+      }
+       
+       .angle:hover
+       {
+        color: white;
+       }
+
+      .social-a
+      {
+        color: black;
+        text-decoration: none;
+      }
+
+      #hover-div
+      {
+        display: flex;
+        width: 350px;
+        height: 280px;
+        transition: 0.3s ease;
+      }
+
+      #hover-div:hover
+      {
+       box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+        transform: translateY(-6px);
+      }
+
+       .vid-container
+       {
+        display: none;
+       }
+
+       .clip-div
+       {
+          width: 100%;
+          height: 500px;
+       } 
+
+       .clip
+       {
+          width: 100%;
+          margin: auto;
+          height: 500px;
+       }
+    
+              
+        .first-set
+        {
+            position: relative;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: wrap row;
+            transform-style: preserve-3d;
+            height: 500px;
+            gap: 70px;
+        }
+
+    .card-container,.card-container-2,.card-container-3 {
+      perspective: 1000px;
+    }
+
+    .card, .card-2, .card-3 {
+      width: 300px;
+      height: 500px;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.6s;
+    }
+
+     .card-container-3:hover .card-3
+    {
+      transform: rotateY(180deg);
+    }
+
+    .card-container-2:hover .card-2
+    {
+      transform: rotateY(180deg);
+    }
+    .card-container:hover .card {
+      transform: rotateY(180deg);
+     }
+
+    .card-face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .card-front {
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .card-back {
+      background: white;
+      transform: rotateY(180deg);
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+    }
+
+      .card-img-top
+      {
+          width: 200px;
+          height: auto;
+          margin-left: 50px;
+          margin-top: 20px;
+      }
+
+      .card-text
+      {
+        font-size: 15px;
+        font-weight: 900;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+      }
+
+      .card-body
+      {
+        width: 230px;
+        height: auto;
+         margin-left: 50px;
+      }
+
+    .front-img
+    {
+      width: 200px;
+      height: auto;
+    }
+
+      .reveal
+      {
+          opacity: 0;
+          transform: translateY(50px);
+          transition: all 0.4s ease;
+      }
+
+      .reveal.active{
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .mobile
+      {
+        display: none;
+      }
+
+      .background-video
+      {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          object-fit: cover;
+          z-index: -1;
+          filter: brightness(0.9);
+      }
+
+      .introduce
+      {
+        z-index: 1;
+        color: black;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+
+      h2  
+      {
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+
+      .video-child
+      {
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        color: white;
+        font-size: 50px;
+      }
+
+      .move-right, .move-left{
+        width: 5%;
+        height: 200px;
+        background-color: white;
+        cursor: pointer;
+      }
+
+      .move-right
+      {
+        margin-left: 30px;
+      }
+
+      .overall
+      {
+        width: auto;
+        height: auto;
+        background-color: white;
+        padding-top: 3%;
+      }
+
+      .collection
+      {
+        width: 500px;
+        height: 280px;
+        position: relative;
+        margin-bottom: 50px;
+        background-color: white;
+        margin-left: 50px;
+        margin-top: -30%;
+        padding: 50px;
+        background: rgba(255, 255, 255, 0.1);
+        /* White with transperency */
+        backdrop-filter: blur(10px);
+        /* Blur the background behind it */
+        -webkit-backdrop-filter: blur(10px);
+        /* For Safari support */
+        border:1px solid rgba(255, 255, 255, 0.2);
+        /* Optional: subtle border */
+        border-radius:15px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      }
+
+      .collection-span, .bttn
+      {
+        color: white;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+
+      .collection-span p
+      {
+        font-size: 20px;
+      }
+
+      .bttn
+      {
+        width: 150px;
+        height: 50px;
+        border-radius: 30px;
+         font-size: 20px;
+         color: black;
+         outline: none;
+         background-color: white;
+      }
+
+      
+      .view-more-btn:hover,
+      .cart-btn:hover{
+          display: block;
+          filter: drop-shadow(
+              0 0 10px
+          gold);
+          background-color: black;
+          color: white;
+      }
+      
+      .bttn:hover
+      {
+          display: block;
+          filter: drop-shadow(
+              0 0 10px
+          black);
+          background-color: black;
+          color: white;
+      }
+      .like-btn
+      {
+        font-size: 20px;
+        color: gray;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+
+      .like-btn.liked
+      {
+        color: red;
+      }
+
+      .view-more-btn
+      {
+        width: 120px;
+        height: 40px;
+        border-radius: 30px;
+         font-size: 20px;
+         color: black;
+         outline: none;
+         border: 1px solid black;
+        background-color: white;
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .view-more-a
+      {
+        text-decoration: none;
+      }
+
+    
+      

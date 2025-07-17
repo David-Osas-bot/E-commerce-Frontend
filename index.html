@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <link rel="stylesheet" href="CSS/@media.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="jquery/jquery-ui-themes-1.13.2/jquery-ui-themes-1.13.2/themes/blitzer/jquery-ui.min.css">
+    <script src="jquery/jquery-3.6.3.min.js"></script>
+    <script src="jquery/jquery-ui-1.13.2/jquery-ui-1.13.2/jquery-ui.js"></script>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <title>Blessing's Website</title>
+
+    <!-- <script>
+        var imgArray = new Array(8);
+    var index = 0;
+
+    function cycle()
+    {
+      document.banner.src = imgArray[index].src;
+      index++;
+      if(index > 7)
+    {
+      index = 0;
+    }
+    setTimeout("cycle()", 2000)
+    return;
+    }
+
+    function startup()
+    {
+      imgArray[0] = new Image
+      imgArray[0].src = "zzz.jpg"
+      imgArray[1] = new Image
+      imgArray[1].src = "pikky9.jpg"
+      imgArray[2] = new Image
+      imgArray[2].src = "video.mp4"
+      imgArray[3] = new Image
+      imgArray[3].src = "pikky3.jpeg"
+      imgArray[4] = new Image
+      imgArray[4].src = "pikky5.jpg"
+      imgArray[5] = new Image
+      imgArray[5].src = "pikky6.webp"
+      imgArray[6] = new Image
+      imgArray[6].src = "pikky7.jpg"
+      imgArray[7] = new Image
+      imgArray[7].src = "pikky8.webp"
+      cycle();
+      return;
+    }
+    </script>  -->
+
+    <!-- <script>
+
+           $(document).ready(function()
+            {
+                $("#set").click(function()
+                {
+                    $("#mobile-div").toggle(500);
+                })
+                    })
+        &#10084
+    </script> -->
+
+    <!-- <script>
+        function toggleLike(btn)
+        {
+            const icon = btn.querySelector('i');
+            if(btn.classList.contains('liked'))
+            {
+                btn.classList.remove('liked');
+
+                icon.classList.remove('&#10084');
+                icon.classList.add('&#9825');
+            }else
+            {
+                btn.classList.add('liked');
+                icon.classList.remove('&#9825');
+                icon.classList.add('&#10084');
+            }
+        }
+    </script> -->
+
+    <script>
+        function toggleLike(btn)
+        {
+            const icon = btn.querySelector('i');
+            if(btn.classList.contains('liked'))
+            {
+                btn.classList.remove('liked');
+
+                icon.classList.remove('bi-heart-fill');
+                icon.classList.add('bi-heart');
+            }else
+            {
+                btn.classList.add('liked');
+                icon.classList.remove('bi-heart');
+                icon.classList.add('bi-heart-fill');
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- The header......-->
+    <header style="position: sticky; top: -10px;">
+        <div class="logo-div">
+            <img src="LOGO.png" class="logo-img">
+        </div>
+
+
+
+        <!-- For the Mobile View -->
+         <div class="mobile">
+            <div class="logo-div-2">
+                <img src="LOGO.png" class="logo-img">
+            </div>
+
+
+            <div class="bars-div">
+                <span class="fa fa-bars bars"></span>
+            </div>
+         </div>
+
+
+
+
+
+
+        <!-- The Links located at the header..... -->
+        <div class="link-div">
+
+
+            <div>
+                <a href="index.html" id="link" >Home</a>
+            </div>
+
+
+            <div>
+                <a href="#" id="link">Pages</a>
+            </div>
+
+            
+            <div class="dropdown">
+                <a href="#" id="link">Shop</a>
+
+                    <div class="subcol-div">
+                        <div class="sub-div">
+                                
+                            <div class="accessory">
+                                <div>
+                                    <span class="women-writeup">Accessories</span>
+                                </div>
+
+                                <hr class="hrAc">
+
+                                <div class="colex">
+                                    <a href="#" class="jack-link">Down Jackets</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jack-link">Hoodies</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jack-link">Suits</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jack-link">Jeans</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jack-link">Casual Pants</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jack-link">Sunglass</a>
+                                </div>
+                            </div>
+                
+
+                            <div class="women1">
+                                <div>
+                                    <span class="women-writeup">Women</span>
+                                </div>
+
+                                <hr class="hrWo">
+
+                                <div class="colex">
+                                    <a href="#" class="jack-link">Down Jackets</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jack-link">Hoodies</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jack-link">Suits</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jack-link">Jeans</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jack-link">Casual Pants</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jack-link">Sunglass</a>
+                                </div>
+                            </div>
+
+
+                            <div class="men1">
+                                <div>
+                                    <span class="men-writeup">Men</span>
+                                </div>
+
+                                <hr class="hrMa">
+
+                                <div class="colex">
+                                    <a href="#" class="jacket-link">Down Jackets</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jacket-link">Hoodies</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jacket-link">Suits</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jacket-link">Jeans</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jacket-link">Casual Pants</a>
+                                </div>
+
+                                <div class="colex">
+                                    <a href="#" class="jacket-link">Sunglass</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div>
+                <a href="#" id="link">Lookbook</a>
+            </div>
+
+            <div>
+                <a href="Contact.html" id="link">Contact</a>
+            </div>
+
+
+        </div>
+        <!-- The links ends here.... -->
+
+
+        <!-- The Icons located at the Header by the right hand side..... -->
+        <div class="icon-div">
+            <div class="font">
+                        
+                <span class="fa fa-search" style="font-size: 20px; color: black;"><span>
+                        
+            </div>
+
+            <div class="font">
+                        
+                <span class="fa fa-user" style="font-size: 20px; color: black;"><span>
+                        
+            </div>
+
+            <div class="font">
+                        
+                <span class="fa fa-shopping-cart" style="font-size: 20px; color: black;"><span>
+                        
+            </div>
+        </div>
+        <!-- The Icons ends here....... -->
+    </header>
+    <!-- The header ends here -->
+
+
+
+
+    
+
+
+
+    <!-- The Video div here.... -->
+    <div class="clip-div">
+        <!-- <img src="pic6.jpg" class="carol" name="banner"> -->
+         <video class="clip background-video" autoplay muted loop poster="LOGO.png">
+            <source src="clipD.mp4" type="video/mp4">
+         </video>
+    </div>
+
+    <div class="collection">
+        <span class="collection-span">
+            Discover our Curated Collections
+            <p>
+                Discover stylish, affordable, and high-quality fashion designed 
+                to elevate your look and boost your confidence instantly.
+            </p>
+        </span> 
+
+        <button class="bttn">
+            Shop Now 
+        </button>
+    </div>
+
+   <div class="overall">
+        <div class="first-set reveal">
+            
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-face card-front">
+                       <img src="Jeans.jpeg" class="front-img">
+                    </div>
+
+                    <div class="card-face card-back">
+                        <img src="Jeans 2.jpeg" class="card-img-top">
+                    
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">Style meets comfort - perfect-fit jeans for everyday.</p>
+                            <a href="#" class="view-more-a">
+                                <button class="view-more-btn">view more</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+             <div class="card-container-2">
+                <div class="card-2">
+                    <div class="card-face card-front">
+                        <img src="Nike.jpeg" class="front-img">
+                    </div>
+
+                    <div class="card-face card-back">
+                        <img src="Nike 2.jpeg" class="card-img-top">
+                    
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">Some quick example text to build on the card title</p>
+                            <a href="#" class="view-more-a">
+                                <button class="view-more-btn">view more</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+             <div class="card-container-3">
+                <div class="card-3">
+                    <div class="card-face card-front">
+                        <img src="Cap 2.jpeg" class="front-img">
+                    </div>
+
+                    <div class="card-face card-back">
+                         <img src="Cap.jpeg" class="card-img-top">
+                    
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">Some quick example text to build on the card title</p>
+                            <a href="#" class="view-more-a">
+                                <button class="view-more-btn">view more</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    
+
+    <div class="ontop reveal">
+        <span class="latest">Our latest products</span>
+        <br>
+    </div>
+    
+    <div class="second-set reveal">
+        <div class="product-div">
+
+            <div class="product">
+                <img src="T-shirt" class="product-img">
+            </div>
+
+            <div class="price-div">
+                <!-- <button class="like-btn" onclick="toggleLike(this)">&#9825;</button> -->
+                 <span class="price-detail">Black T-shirt that speaks Class.</span><br>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star-half-alt star margin"></span>
+                  <button class="like-btn" onclick="toggleLike(this)"><i class="bi bi-heart"></i></button>
+                  <br>
+                  <span class="price-detail">$150</span>
+                  <br>
+                  <button class="cart-btn">Add to Cart</button>
+
+            </div>
+
+        </div>
+
+        <div class="product-div">
+            <div class="product">
+                <img src="T-shirt 2.jpeg" class="product-img">
+            </div>
+            <div class="price-div">
+              <span class="price-detail">Black T-shirt that speaks Class.</span><br>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star-half-alt star margin"></span>
+                  <button class="like-btn" onclick="toggleLike(this)"><i class="bi bi-heart"></i></button>
+                  <br>
+                  <span class="price-detail">$150</span>
+                  <br>
+                  <button class="cart-btn">Add to Cart</button>  
+            </div>
+        </div>
+
+
+
+        <div class="product-div">
+            <div class="product">
+                <img src="T-shirt 3.jpeg" class="product-img">
+            </div>
+            <div class="price-div">
+                <span class="price-detail">Black T-shirt that speaks Class.</span><br>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star-half-alt star margin"></span>
+                  <button class="like-btn" onclick="toggleLike(this)"><i class="bi bi-heart"></i></button>
+                  <br>
+                  <span class="price-detail">$150</span>
+                  <br>
+                  <button class="cart-btn">Add to Cart</button>  
+            </div>
+        </div>
+
+        <div class="product-div">
+            <div class="product">
+                <img src="T-shirt 4.jpeg" class="product-img">
+            </div>
+            <div class="price-div">
+                <span class="price-detail">Black T-shirt that speaks Class.</span><br>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star-half-alt star margin"></span>
+                  <button class="like-btn" onclick="toggleLike(this)"><i class="bi bi-heart"></i></button>
+                  <br>
+                  <span class="price-detail">$150</span>
+                  <br>
+                  <button class="cart-btn">Add to Cart</button>  
+            </div>
+        </div>
+
+         <div class="product-div reveal">
+            <div class="product">
+                <img src="Hoody 2.jpeg" class="product-img">
+            </div>
+            <div class="price-div">
+                <span class="price-detail">Black T-shirt that speaks Class.</span><br>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star-half-alt star margin"></span>
+                  <button class="like-btn" onclick="toggleLike(this)"><i class="bi bi-heart"></i></button>
+                  <br>
+                  <span class="price-detail">$150</span>
+                  <br>
+                  <button class="cart-btn">Add to Cart</button>  
+            </div>
+        </div>
+
+        <div class="product-div reveal">
+            <div class="product">
+                <img src="Hoody.jpeg" class="product-img">
+            </div>
+            <div class="price-div">
+                <span class="price-detail">Black T-shirt that speaks Class.</span><br>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star-half-alt star margin"></span>
+                  <button class="like-btn" onclick="toggleLike(this)"><i class="bi bi-heart"></i></button>
+                  <br>
+                  <span class="price-detail">$150</span>
+                  <br>
+                  <button class="cart-btn">Add to Cart</button>
+            </div>
+        </div>
+
+         <div class="product-div reveal">
+            <div class="product">
+                <img src="Bag.jpeg" class="product-img">
+            </div>
+            <div class="price-div">
+                <span class="price-detail">Black T-shirt that speaks Class.</span><br>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star-half-alt star margin"></span>
+                  <button class="like-btn" onclick="toggleLike(this)"><i class="bi bi-heart"></i></button>
+                  <br>
+                  <span class="price-detail">$150</span>
+                  <br>
+                  <button class="cart-btn">Add to Cart</button>  
+            </div>
+        </div>
+
+        <div class="product-div reveal">
+            <div class="product">
+                <img src="Bag 2.jpeg" class="product-img">
+            </div>
+            <div class="price-div">
+                <span class="price-detail">Black T-shirt that speaks Class.</span><br>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star-half-alt star margin"></span>
+                  <button class="like-btn" onclick="toggleLike(this)"><i class="bi bi-heart"></i></button>
+                  <br>
+                  <span class="price-detail">$150</span>
+                  <br>
+                  <button class="cart-btn">Add to Cart</button>  
+            </div>
+        </div>
+
+    </div>
+
+    <div class="third-set reveal">
+        <div id="hover-div">
+            <div class="men1">
+                <div>
+                    <span class="men-writeup">Men</span>
+                </div>
+
+                <hr class="hrMa">
+
+                <div class="colex">
+                    <a href="#" class="jacket-link">Down Jackets</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jacket-link">Hoodies</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jacket-link">Suits</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jacket-link">Jeans</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jacket-link">Casual Pants</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jacket-link">Sunglass</a>
+                </div>
+            </div>
+
+            <div class="men2">
+                <img src="product-l-1.jpg" class="men-img">
+            </div>
+        </div>
+
+        <div style="display: flex;" id="hover-div">
+            <div class="women1">
+                <div>
+                    <span class="women-writeup">Women</span>
+                </div>
+
+                <hr class="hrWo">
+
+                <div class="colex">
+                    <a href="#" class="jack-link">Down Jackets</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jack-link">Hoodies</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jack-link">Suits</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jack-link">Jeans</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jack-link">Casual Pants</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jack-link">Sunglass</a>
+                </div>
+            </div>
+
+            <div class="women2">
+                <img src="product-l-2.jpg" class="women-img">
+            </div>
+        </div>
+
+
+        <div style="display: flex;" id="hover-div">
+            <div class="accessory">
+                <div>
+                    <span class="women-writeup">Accessories</span>
+                </div>
+
+                <hr class="hrAc">
+
+                <div class="colex">
+                    <a href="#" class="jack-link">Down Jackets</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jack-link">Hoodies</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jack-link">Suits</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jack-link">Jeans</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jack-link">Casual Pants</a>
+                </div>
+
+                <div class="colex">
+                    <a href="#" class="jack-link">Sunglass</a>
+                </div>
+            </div>
+            
+            <div class="accessory2">
+                <img src="product-l-3.jpg" class="access-img">
+            </div>
+        </div>
+    </div>
+    
+    <div class="inter reveal">
+            <model-viewer src="Jordan.glb" autoplay camera-controls class="model-Image"></model-viewer>
+
+        <div class="product-div">
+            <div class="product">
+                <img src="Nike 3.jpeg" class="product-img">
+            </div>
+            <div class="price-div">
+                <span class="price-detail">Black T-shirt that speaks Class.</span><br>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star-half-alt star margin"></span>
+                  <button class="like-btn" onclick="toggleLike(this)"><i class="bi bi-heart"></i></button>
+                  <br>
+                  <span class="price-detail">$150</span>
+                  <br>
+                  <button class="cart-btn">Add to Cart</button>  
+            </div>
+        </div>
+
+        <div class="product-div">
+            <div class="product">
+                <img src="NIke 4.jpeg" class="product-img">
+            </div>
+            <div class="price-div">
+                <span class="price-detail">Black T-shirt that speaks Class.</span><br>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star-half-alt star margin"></span>
+                  <button class="like-btn" onclick="toggleLike(this)"><i class="bi bi-heart"></i></button>
+                  <br>
+                  <span class="price-detail">$150</span>
+                  <br>
+                  <button class="cart-btn">Add to Cart</button>  
+            </div>
+        </div>
+
+        <div class="product-div">
+            <div class="product">
+                <img src="Nike 5.jpeg" class="product-img">
+            </div>
+            <div class="price-div">
+                 <span class="price-detail">Black T-shirt that speaks Class.</span><br>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star star"></span>
+                 <span class="fa fa-star-half-alt star margin"></span>
+                  <button class="like-btn" onclick="toggleLike(this)"><i class="bi bi-heart"></i></button>
+                  <br>
+                  <span class="price-detail">$150</span>
+                  <br>
+                  <button class="cart-btn">Add to Cart</button>  
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Carousel DIV -->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="reveal">
+        <div class="logo-write">
+
+            
+                <img src="LOGO.png" class="logo-in"> 
+                <br><br>
+                <span class="write-in">
+                    <b>G-shopping</b>
+                    provides a premium experience for <br><br>Trendsetters - Where Style Meets Savings.
+                    <br><br>
+                    Best choice for your online store. Let purchase it<br><br> to enjoy now
+                </span>
+
+                <br><br>
+                <span class="social-write">
+                    Social:
+                </span>
+               
+
+                <a href="http://www.facebook.com" target="#" class="social-a">
+                    <span class="fab fa-facebook-square"></span>
+                </a>
+
+                
+
+                <a href="http://www.instagram.com" target="#"  class="social-a">
+                    <span class="fab fa-instagram"></span>
+                </a>
+                
+                
+                <a href="www.twitter.com" target="#" class="social-a">
+                    <span class="fab fa-twitter"></span>
+                </a>       
+
+                <a href="www.whatsapp.com" target="#" class="social-a">
+                    <span class="fab fa-whatsapp"></span>
+                </a>
+        
+        </div>
+
+        <div class="inform-div">
+            <span class="inform-write">
+                Information
+            </span>
+            <hr class="hrIn">
+
+            <br><br>
+
+            <ul">
+                <li class="the-list">About us</li>
+                <li class="the-list">Delivery Information</li>
+                <li class="the-list">Terms & Conditions</li>
+                <li class="the-list">Returns and Refunds</li>
+                <li class="the-list">Help Center</li>
+            </ul>
+        </div>
+
+        <div class="customer-div">
+            <span class="customer-write">
+                Customer
+            </span>
+            <hr class="hrCu">
+
+            <br><br>
+
+            <ul">
+                <li class="the-list2">About us</li>
+                <li class="the-list2">Delivery Information</li>
+                <li class="the-list2">Terms & Conditions</li>
+                <li class="the-list2">Returns and Refunds</li>
+                <li class="the-list2">Help Center</li>
+            </ul>
+        </div>
+
+        <div class="account-div">
+            <span class="account-write">
+                My Account
+            </span>
+            <hr class="hrAcct">
+
+            <br><br>
+
+            <ul">
+                <li class="the-list3">About us</li>
+                <li class="the-list3">Delivery Information</li>
+                <li class="the-list3">Terms & Conditions</li>
+                <li class="the-list3">Returns and Refunds</li>
+                <li class="the-list3">Help Center</li>
+            </ul>
+        </div>
+    </footer>
+
+</div>
+
+    <script src="./scrollReveal.js"></script>
+    <script src="./script.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+</body>
+</html>

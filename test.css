@@ -1,0 +1,56 @@
+.anime
+{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.anime-bot
+{
+    width: 200px;
+    height: 50px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+#bot{
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-heart
+{
+    color: black;
+    font-size: 20px;
+}
+
+#span
+{
+    border: 1px solid gray;
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+}
+
+#span2
+{
+    color: red;
+    height: 20px;
+    width: 20px;
+
+}
+
+#bot2
+{
+    display: none;
+}
+
+#bot:hover #bot2
+{
+    display: block;
+}
+

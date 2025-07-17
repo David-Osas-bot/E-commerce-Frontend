@@ -1,0 +1,50 @@
+.form-div
+{
+    margin: auto;
+    width: 30%;
+    background-color: white;
+    height: 300px;
+    margin-top: 10%;
+    padding-left: 10px;
+}
+
+input
+{
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+}
+
+input[type= "submit"]
+{
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+#pswrd-div
+{
+    display: flex;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+}
+
+#eye
+{
+    display: none;
+}
+
+#eye-open
+{
+    margin-top: 10px;
+}
+
+#eye-close
+{
+    margin-top: 10px;
+}
