@@ -88,21 +88,6 @@
         margin-bottom: 50%;
       }
 
-       .move-right, .move-left{
-        width: 2%;
-        margin-top: 20%;
-      }
-
-      .move-right
-      {
-        margin-left: 10px;
-      }
-       .carousel-container-div
-       {
-         margin-left: 15px;
-         column-gap: 20px;
-       }
-
       .collection
        {
           height: 350px;
@@ -128,8 +113,90 @@
          font-size: 20px;
       }
 
-      .poll
-      {
+       .text h1
+    {
+        font-size: 35px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .text p {
         width: 90%;
-      }
-}
+    }
+
+    header h1
+    {
+        font-size: 25px;
+    }
+
+    header p span{
+        font-size: 30px;
+    }
+
+    section .product{
+        min-width: 49%;
+        margin: 0 10px 0 0;
+    }
+
+    .detail, .button{
+        font-size: 16px;
+    }
+
+    a
+    {
+        padding: 6px 10px;
+    }
+
+    section .carousel-product
+    {
+       /* min-width: 24%;
+    height: 95%;
+    background-color: white;
+    margin: 0 20px 0 0;
+    border-radius: 20px;
+    position: relative;
+    left: 0;
+    transition: 0.5s;
+    align-items: center;
+    justify-content: center; */
+    
+      min-width: 80%;
+      height: auto;
+      margin-bottom: 15%;
+    }
+
+              
+    .header-two
+    {
+        min-width: 100%;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+
+
+    #over-direction
+    {
+      width: 100px;
+      height: 30px;
+    }
+
+    .header-two h1
+    {
+      font-size: 30px;
+    }
+
+        
+    picture img{
+        width: 80%;
+
+    }
+} 
+ 
